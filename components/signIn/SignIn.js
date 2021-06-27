@@ -18,6 +18,7 @@ const SignIn = () => {
     <TouchableOpacity onPress={handleSignIn} style={styles.button}>
       <Image style={styles.logoGoogle} source={logoGoogle} />
       <Text style={styles.text}>Iniciar sesion con google</Text>
+      <Text>lol</Text>
     </TouchableOpacity>
   );
 };
